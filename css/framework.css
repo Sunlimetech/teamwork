@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body {
+	color: #4a5d8b;
+	font-size: 16px;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 10px 0;
+}
+*{
+	box-sizing: border-box;
+}
+/*******************************/
+/*********** colors ********/
+/*******************************/
+.text-primary {
+	color: #4a5d8b;
+}
+.text-secondary {
+	color: #adb7c1;
+}
+.text-white {
+	color: #fff;
+}
+.text-black {
+	color: #2a2a31;
+}
+.bg-primary {
+	background-color: #4a5d8b;
+}
+.bg-secondary {
+	background-color: #adb7c1;
+}
+.bg-white {
+	background-color: #fff;
+}
+.bg-black {
+	background-color: #2a2a31;
+}
+/*******************************/
+/*********** Typography ********/
+/*******************************/
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-small {
+	font-size: 14px;
+}
+.text-medium {
+	font-size: 18px;
+}
+.text-large {
+	font-size: 22px;
+}
+.text-xlarge {
+	font-size: 26px;
+}
+.text-xxlarge {
+	font-size: 30px;
+}
+/*******************************/
+/*********** margin ************/
+/*******************************/
+.mt-10 {
+	margin-top: 10px;
+}
+.mr-10 {
+	margin-right: 10px;
+}
+.mb-10 {
+	margin-bottom: 10px;
+}
+.ml-10 {
+	margin-left: 10px;
+}
+.mx-10 {
+	margin: 0 10px;
+}
+.my-10 {
+	margin: 10px 0;
+}
+.m-10 {
+	margin: 10px;
+}
+.mb-0 {
+	margin-bottom: 0;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mr-20 {
+	margin-right: 20px;
+}
+.mb-20 {
+	margin-bottom: 20px;
+}
+.ml-20 {
+	margin-left: 20px;
+}
+.mx-20 {
+	margin: 0 20px;
+}
+.my-20 {
+	margin: 20px 0;
+}
+.m-20 {
+	margin: 20px;
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+.mr-auto{
+    margin-right: auto !important;
+}
+.mx-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+}
+.mr-0{
+    margin-right: 0 !important;
+}
+.ml-0{
+    margin-left: 0 !important;
+}
+/*******************************/
+/*********** padding ***********/
+/*******************************/
+.pt-10 {
+	padding-top: 10px;
+}
+.pr-10 {
+	padding-right: 10px;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.pl-10 {
+	padding-left: 10px;
+}
+.pl-0{
+    padding-left: 0;
+}
+.p-0{
+    padding: 0;
+}
+.px-10 {
+	padding: 0 10px;
+}
+.py-10 {
+	padding: 10px 0;
+}
+.p-10 {
+	padding: 10px;
+}
+.pt-20 {
+	padding-top: 20px;
+}
+.pr-20 {
+	padding-right: 20px;
+}
+.pb-20 {
+	padding-bottom: 20px;
+}
+.pl-20 {
+	padding-left: 20px;
+}
+.px-20 {
+	padding: 0 20px;
+}
+.py-20 {
+	padding: 20px 0;
+}
+.p-20 {
+	padding: 20px;
+}
+/*******************************/
+/********** display ************/
+/*******************************/
+.d-flex , .row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.d-block{
+	display: block;
+}
+.align-items-center{
+	align-items: center;
+}
+.justify-content-center{
+	justify-content: center;
+}
+/*******************************/
+/******* buttons classes *******/
+/*******************************/
+.btn{
+	padding: 10px 20px;
+    border-radius: 10px;
+}
+.btn-primary{
+	color: #4a5d8b;
+	border: 1px solid #b3eaff;
+    border-radius: 50px;
+    background-color: #b3eaff;
+    text-transform: capitalize;
+}
+.btn-secondary{
+	background-color: #adb7c1;
+	color: #2a2a31;
+	border: 1px solid #adb7c1;
+}
+/*******************************/
+/******* common classes ********/
+/*******************************/
+section {
+	padding: 50px 0;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+.rounded-circle{
+	border-radius: 50%;
+}
+.rounded{
+	border-radius: 4px;
+}
+a {
+	color: #1f364e;
+	text-decoration: none;
+}
+.text-underline {
+	text-decoration: underline;
+}
+.w-100{
+	width: 100% !important;
+}
+.h-100{
+	height: 100% !important;
+}
+.border-radius-20{
+	border-radius: 20px;
+}
+.container{
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.container-fluid{
+	width: 100%;
+}
